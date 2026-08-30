@@ -1,7 +1,6 @@
 class AgenticGo < Formula
   desc "Source-grounded Go MCP server for coding agents"
   homepage "https://github.com/agentic-mcps/go"
-  version "1.0.0"
   license "Apache-2.0"
 
   on_macos do
