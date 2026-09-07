@@ -5,21 +5,21 @@ class AgenticGo < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agentic-mcps/go/releases/download/v1.0.0/agentic-go_1.0.0_darwin_arm64.tar.gz"
-      sha256 "5b355ee334151a3b8e8bdba0f553df7b9813b534c825f6d77f31864394c30175"
+      url "https://github.com/agentic-mcps/go/releases/download/v1.1.0/agentic-go_1.1.0_darwin_arm64.tar.gz"
+      sha256 "d0d6dfebebfef17d1c85a8d4fbeeb34de8f6f6ac91593dc60ad04e7c7ff50a41"
     else
-      url "https://github.com/agentic-mcps/go/releases/download/v1.0.0/agentic-go_1.0.0_darwin_amd64.tar.gz"
-      sha256 "f2ed5dadb22ebb52af607adf40088164bf7a9b31775601f978baa45f35693b15"
+      url "https://github.com/agentic-mcps/go/releases/download/v1.1.0/agentic-go_1.1.0_darwin_amd64.tar.gz"
+      sha256 "770d5c7ad5f0238e5ee8686a3f013cee7ee02ebe9d40557c570b03497515d44c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agentic-mcps/go/releases/download/v1.0.0/agentic-go_1.0.0_linux_arm64.tar.gz"
-      sha256 "8936f11144986caf29b13f3a8cfbd6fcfc3d3bb837e98c667b68741099d84a5c"
+      url "https://github.com/agentic-mcps/go/releases/download/v1.1.0/agentic-go_1.1.0_linux_arm64.tar.gz"
+      sha256 "fc60513e0d9f8ac78736671fb8de825b7d51781650551539d8f480fe42078fef"
     else
-      url "https://github.com/agentic-mcps/go/releases/download/v1.0.0/agentic-go_1.0.0_linux_amd64.tar.gz"
-      sha256 "f55a4af9c3389b2e32a43734ce6591372e23ff54f623d07d5790385a58868f25"
+      url "https://github.com/agentic-mcps/go/releases/download/v1.1.0/agentic-go_1.1.0_linux_amd64.tar.gz"
+      sha256 "2e26d1ba9d8e107c809b131822607b5feed62a0857b72b3eb15179c89fd73dc3"
     end
   end
 
